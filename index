@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Azis Nurhamid - Wireless Network Engineer</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+    <div class="background-icons">
+        <i class="fas fa-wifi" style="top: 10%; left: 20%;"></i>
+        <i class="fas fa-network-wired" style="top: 50%; left: 40%;"></i>
+        <i class="fas fa-signal" style="top: 80%; left: 70%;"></i>
+        <i class="fas fa-server" style="top: 30%; left: 80%;"></i>
+        <i class="fas fa-cloud" style="top: 70%; left: 10%;"></i>
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Azis Nurhamid</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#profile">Profil</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#experience">Pengalaman</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#education">Pendidikan</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Kemampuan</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Kontak</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <section id="profile" class="my-5 text-center">
+            <img src="assets/img/profile.jpg" alt="Azis Nurhamid" class="rounded-circle" width="150" height="150">
+            <h1 class="mt-3">Azis Nurhamid</h1>
+            <p>Wireless Network Engineer</p>
+            <p>Email: <a href="mailto:azisnurhamid@gmail.com">azisnurhamid@gmail.com</a></p>
+            <p>Telepon: 0896-6663-2577</p>
+            <p>Alamat: Jl. Sunan Bonang RT 04 RW 02, Tambaksari Kidul - Purwokerto</p>
+        </section>
+
+        <section id="experience" class="my-5">
+            <h2 class="text-center">Pengalaman Kerja</h2>
+            <div id="experience-content" class="row"></div>
+        </section>
+
+        <section id="education" class="my-5">
+            <h2 class="text-center">Pendidikan</h2>
+            <div id="education-content" class="row"></div>
+        </section>
+
+        <section id="skills" class="my-5">
+            <h2 class="text-center">Kemampuan</h2>
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm">
+                        <div class="card-body">
+                            <p class="card-text">Membuat Jaringan LAN</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm">
+                        <div class="card-body">
+                            <p class="card-text">Setting MikroTIK, Access Point/Router</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm">
+                        <div class="card-body">
+                            <p class="card-text">Maintenance Jaringan dan Hotspot area</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="my-5 text-center">
+            <h2>Kontak</h2>
+            <p><a href="https://bit.ly/azisnurhamid" target="_blank" class="btn btn-primary">LinkedIn</a></p>
+            <p>Email: <a href="mailto:azisnurhamid@gmail.com">azisnurhamid@gmail.com</a></p>
+            <p>Telepon: 0896-6663-2577</p>
+            <p>Alamat: Jl. Sunan Bonang RT 04 RW 02, Tambaksari Kidul - Purwokerto</p>
+            <p><a href="assets/Curriculum Vitae.pdf" download class="btn btn-secondary">Download CV</a></p>
+        </section>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
